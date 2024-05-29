@@ -10,7 +10,7 @@ Player 1:
 ![alt text](https://github.com/nicolas1612/fighting-js/blob/main/img/WizardPack/Idle.png?raw=true)
 
 PLayer 2:
-![alt text](https://github.com/nicolas1612/fighting-js/blob/main/img/Enemy/Idle.png?raw=true)
+![alt text](https://github.com/nicolas1612/fighting-js/blob/main/img/enemy/Idle.png?raw=true)
 
 Background:
 ![alt text](https://github.com/nicolas1612/fighting-js/blob/main/img/HillsFree.png?raw=true)
