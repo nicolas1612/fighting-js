@@ -211,7 +211,7 @@ const sfondo = new Sprite({
         x:0,
         y:0
     },
-    imagesrc:'./img/Hills Free.png'
+    imagesrc:'./img/HillsFree.png'
 })
 
 
