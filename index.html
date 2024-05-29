@@ -1,0 +1,40 @@
+<head>
+	<meta name="viewport" content="width=600, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+<style> 
+    *{
+        box-sizing: border-box;
+        font-family: 'Press Start 2P', cursive;
+    }
+</style>
+
+</head>
+<body style="display:flex; align-content: flex-start; justify-content: center; align-items: center; background-color: black; overflow: hidden">
+	<img src = "./img/Hills Free.png" style="filter: blur(8px); object-fit: fill; height: 100%; width: 100%; position: absolute">
+    <div style="position:relative; display:inline-block;">
+        <div style="position:absolute; display: flex; width: 100%; align-items:center; padding: 20px">
+            <!--vita player-->
+            <div style="position:relative; width: 100%; display: flex; justify-content:flex-end;border-top: 4px solid grey;border-left: 4px solid grey;border-bottom: 4px solid grey;">
+                <div style="background-color: red; height: 30px; width: 100%"></div>
+                <div id="vitaPlayer" style="position:absolute; background: #FEF08A; top: 0; right: 0; bottom: 0; width:100%"></div>
+            </div>
+            <!--timer-->
+            <div id="tempo" style="background-color: black; height: 50px; width: 100px; flex-shrink: 0; display: flex; align-items:center; justify-content:center;color:white;border: 4px solid grey;">10</div>
+            <!--vita enemy-->
+            <div style="position:relative; width: 100%; display: flex; justify-content:flex-end;border-top: 4px solid grey;border-right: 4px solid grey;border-bottom: 4px solid grey;">
+                <div style="background-color: red; height: 30px; width: 100%"></div>
+                <div id="vitaEnemy" style="position:absolute; background: #FEF08A; top: 0; right: 0; bottom: 0; left:0"></div>
+            </div>
+            <div></div>
+        </div>
+        <div id="testo" style="position:absolute; color:white; display:flex;align-items:center;justify-content:center;top:0;right:0;left:0;bottom:0;display:none">Pareggio</div>
+        <canvas></canvas>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js" integrity="sha512-H6cPm97FAsgIKmlBA4s774vqoN24V5gSQL4yBTDOY2su2DeXZVhQPxFK4P6GPdnZqM9fg1G3cMv5wD7e6cFLZQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="text/javascript" src='index.js' ></script>
+</body> 
+
+
+
